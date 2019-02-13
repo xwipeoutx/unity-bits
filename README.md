@@ -2,6 +2,8 @@
 
 This repository contains snippets and examples of helpful effects and scripts I've used.
 
+# Shaders
+
 ## Sweep Reveal
 
 Simple effect to transition between alpha=0 and alpha=1 with a sweeping blend.  Good for revealing panels or terrain layers, for example.
@@ -34,3 +36,10 @@ Includes
 Shaders can be found at `UnityHelpers/Assets/Shaders/Lighting/`
 
 See `UnityHelpers/Assets/Shaders/Lighting/Example` for an example.
+
+# Gizmos
+
+A bunch of Gizmos that I'm not gonna spend much effort documenting
+
+**FrustumPreview:** Good for vantage points and alternate camera locations - shows a box and a frustum that's pointing the right way
+**PathPreview:** If you're doing a custom path and want a preview, this is your gizmo - shows a "tadpole" at a bunch of samples along a path
