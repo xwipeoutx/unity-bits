@@ -35,6 +35,12 @@ Tweens a game object between 2 other transforms.  Useful for moving panels aroun
 
 Manages transitions between complex states via timelines.  This is just an example pattern to follow.
 
+# Editor Helpers
+
+## Check References
+
+Ensures all the fields on your components are set.  Edit the special cases in `_skipPropertyTypes` and `switch (prop.type)` as needed
+
 # Gizmos
 
 A bunch of Gizmos that I'm not gonna spend much effort documenting
