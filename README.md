@@ -8,6 +8,8 @@ This repository contains snippets and examples of helpful effects and scripts I'
 
 Simple effect to transition between alpha=0 and alpha=1 with a sweeping blend.  Good for revealing panels or terrain layers, for example.
 
+[[https://github.com/xwipeoutx/UnityBits/blob/master/docs/images/sweep-reveal.gif|alt=sweep]]
+
 ## Occlusion only
 
 Shader that writes to the depth buffer, but does not render any colour.  Useful in AR when you have a mesh of the "real world" and wish to ensure holograms "hide behind" them.
