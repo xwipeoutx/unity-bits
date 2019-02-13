@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Occlusion
-  m_Shader: {fileID: 4800000, guid: 53f463a2d749c8243821697061cf96e8, type: 3}
+  m_Name: Cube
+  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2501
+  m_CustomRenderQueue: 2502
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:

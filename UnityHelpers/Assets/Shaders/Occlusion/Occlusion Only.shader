@@ -2,24 +2,18 @@
 {
     SubShader
     {
-        Tags { "Queue"="Geometry-1" "RenderType"="Opaque" "IgnoreProjector"="True" }
-        LOD 100
-        Cull Back
-        ZWrite On
+        Tags { "Queue" = "AlphaTest+501" "RenderType"="Opaque" } // Queue is immediately after skybox / background
         ColorMask 0
 
         Pass
         {            
             CGPROGRAM
             
-            #pragma target 3.0
             #pragma vertex vert
             #pragma fragment frag
         
             #include "UnityCG.cginc"
 
-            #pragma multi_compile_instancing
-                
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -47,8 +41,6 @@
 
             half4 frag (v2f i) : SV_Target
             {
-                UNITY_SETUP_INSTANCE_ID(i);
-                
                 return half4(0,0,0,0);
             }
             ENDCG
