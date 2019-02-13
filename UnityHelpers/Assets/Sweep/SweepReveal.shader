@@ -30,6 +30,8 @@
 			
 			#include "UnityCG.cginc"
 
+            #pragma multi_compile_instancing
+
 			fixed4 _Color;
 			sampler2D _MainTex;
 			fixed4 _MainTex_ST;
