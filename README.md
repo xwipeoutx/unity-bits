@@ -31,6 +31,10 @@ Includes
 
 Tweens a game object between 2 other transforms.  Useful for moving panels around in space as interaction occurs.  Applies position, rotation and scale
 
+## Timeline Orchestrator
+
+Manages transitions between complex states via timelines.  This is just an example pattern to follow.
+
 # Gizmos
 
 A bunch of Gizmos that I'm not gonna spend much effort documenting
