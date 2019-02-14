@@ -39,6 +39,17 @@ Tweens a game object between 2 other transforms.  Useful for moving panels aroun
 
 ![Transform Tween](/docs/images/transform-tween.png)
 
+## Image tracking world positioner
+
+This script allows you to place an "alignment" object under your world root, which is linked to an `AugmentedImage` in ARCore to position your world with respect to that image.
+
+Also supports an in-editor (debug) positioner for a better editing experience.
+
+**Note**: This is ARCore only.
+
+![ARCore World Positioner](/docs/images/arcore-world-position.png)
+
+
 ## Timeline Orchestrator
 
 Manages transitions between complex states via timelines.  This is just an example pattern to follow.
